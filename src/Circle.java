@@ -2,8 +2,8 @@ import java.awt.*;
 import java.awt.geom.Area;
 
 public class Circle {
-    private double radius;
-    private String color;
+     double radius;
+      String color;
 
     public Circle() {
         radius = 1.0;
@@ -34,5 +34,20 @@ public class Circle {
           return color;
         }
 
+     public void setRadius(double newRadius)
+     {
+         radius=newRadius;
+     }
+     public void setColor(String newColor)
+     {
+         color=newColor;
+     }
 
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

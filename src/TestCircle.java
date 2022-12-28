@@ -11,7 +11,9 @@ public class TestCircle {
 
         Circle c3= new Circle(5.0,"red");
 
-            System.out.println(" the radius of circle is " + c3.getRadius() + " area is " + c3.getArea()+ " colour is " +c3.getColor());
+        System.out.println(" the radius of circle is " + c3.getRadius() + " area is " + c3.getArea()+ " colour is " +c3.getColor());
+        System.out.println("details "+c3);
+        Circle c4= new Circle();
         c4.setColor("green");       // Change color
         System.out.println("color is: " + c4.getColor());
 
